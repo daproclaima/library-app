@@ -2,7 +2,6 @@ import { computed, observer } from '@ember/object';
 // import { empty } from '@ember/object/computed';
 import { match, not } from '@ember/object/computed';
 import Controller from '@ember/controller';
-import {inject as service} from '@ember/service';
 
 
 export default Controller.extend({
@@ -72,6 +71,6 @@ export default Controller.extend({
             this.set('responseMessage', `Thank you! We've just saved your email address: ${this.get('emailAddress')}`);
             this.set('emailAddress', '');
         },
-    }
+    },
 
 });

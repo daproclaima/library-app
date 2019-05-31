@@ -3,11 +3,19 @@ language-select:
   language:
     en-us: English
     fr-fr: French
+nav:
+  page:
+    contact: Contact Page
+header:
+  send_message: Send a message
+subheader:
+  send_message: Do you need to contact us?
 label:
   launch_date: Don't miss our launch date, request an invitation now.
   fill_infos: Please fill in your informations below.
 link:
   request_invit: Request invitation
+  send: Send
 form:
   language:
     label: Choose your language
