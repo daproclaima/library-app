@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81706f83-eae7-4c8a-a6d3-a2eaaedace58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/translations/fr-fr.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.template-lintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.template-lintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,28 +17,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="118" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
+                <element signature="e#371#390#0#Handlebars" expanded="true" />
+                <element signature="e#452#470#0#Handlebars" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#4;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#!!top" />
+                <element signature="e#2306#2326#0#Handlebars" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/ember-intl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/translations/en-us.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/translations/fr-fr.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="121">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#103#155#0" expanded="true" />
               </folding>
@@ -43,9 +77,17 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>templates</find>
+      <find>locales</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,8 +96,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/index.js" />
+        <option value="$PROJECT_DIR$/.template-lintrc.js" />
+        <option value="$PROJECT_DIR$/app/routes/application.js" />
+        <option value="$PROJECT_DIR$/config/ember-intl.js" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/translations/en-us.yaml" />
+        <option value="$PROJECT_DIR$/translations/fr-fr.yaml" />
         <option value="$PROJECT_DIR$/app/templates/index.hbs" />
+        <option value="$PROJECT_DIR$/app/controllers/index.js" />
       </list>
     </option>
   </component>
@@ -81,13 +129,12 @@
               <item name="library-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="library-app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="library-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="library-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="translations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -95,6 +142,18 @@
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\emberTuto\library-app\translations" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -120,12 +179,12 @@
       <updated>1557756311547</updated>
       <workItem from="1557756314477" duration="1724000" />
       <workItem from="1559233031993" duration="13012000" />
-      <workItem from="1559286894627" duration="3851000" />
+      <workItem from="1559286894627" duration="12172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18587000" />
+    <option name="totallyTimeSpent" value="26908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -140,8 +199,8 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49583334" visible="true" weight="0.25637585" />
-      <window_info id="Structure" order="1" sideWeight="0.50416666" side_tool="true" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.25637585" />
+      <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" visible="true" weight="0.25637585" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -152,10 +211,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" x="8" y="567" width="1490" height="235" id="Terminal" order="11" type="WINDOWED" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" x="23" y="299" width="1490" height="453" id="Terminal" order="11" type="WINDOWED" visible="true" weight="0.32867134" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -167,38 +226,69 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-modal-dialog/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-modal-dialog/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-in-viewport/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-in-viewport/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-intl/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-intl/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cookies/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cookies/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-bootstrap-datetimepicker/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-bootstrap-datetimepicker/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/broccoli-stew/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/broccoli-stew/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-template-lint/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-template-lint/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-flatpickr/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/tests/should-preserve-symlinks-test.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/-private/types.js" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/tests/index-test.js" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/mixins/ajax-support.js" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-meta-tags/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/tests/resolve-package-path-test.js" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-meta-tags/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/-private/promise.js" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/tests/index-test.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/lib/resolve-package-path.js" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/app/services/ajax.js" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-power-select/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/lib/cache-group.js" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/lib/cache-group.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/lib/cache.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/lib/resolve-package-path.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/request.js" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-power-select/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-animated/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/lib/should-preserve-symlinks.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/raw.js" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/lib/should-preserve-symlinks.js" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/errors.js" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/lib/cache.js" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/ajax-request.js" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-animated/node_modules/fs-tree-diff/lib/util.d.ts" />
         <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-flatpickr/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-maybe-in-element/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-maybe-in-element/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-flatpickr/node_modules/fs-tree-diff/lib/util.d.ts" />
         <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-d3/node_modules/fs-tree-diff/lib/util.d.ts" />
         <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-d3/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cp-validations/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cp-validations/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-maybe-in-element/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-maybe-in-element/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-text-measurer/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/-private/utils/parse-response-headers.js" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-text-measurer/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/-private/utils/get-header.js" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/-private/utils/url-helpers.js" />
         <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-basic-dropdown/node_modules/fs-tree-diff/lib/util.d.ts" />
         <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-basic-dropdown/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-text-measurer/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-text-measurer/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-meta-tags/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-meta-tags/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-power-select/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-power-select/node_modules/fs-tree-diff/lib/entry.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-animated/node_modules/fs-tree-diff/lib/util.d.ts" />
-        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-animated/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/-private/utils/is-string.js" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cp-validations/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/mixins/legacy/normalize-error-response.js" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cp-validations/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/services/ajax.js" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/mixins/ajax-request.js" />
+        <option value="$PROJECT_DIR$/node_modules/ember-ajax/addon/utils/ajax.js" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/tests/should-preserve-symlinks-test.js" />
+        <option value="$PROJECT_DIR$/node_modules/resolve-package-path/tests/resolve-package-path-test.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cookies/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cookies/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/broccoli-stew/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/broccoli-stew/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-bootstrap-datetimepicker/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-bootstrap-datetimepicker/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-template-lint/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-cli-template-lint/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-modal-dialog/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-modal-dialog/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-in-viewport/node_modules/fs-tree-diff/lib/entry.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-in-viewport/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-intl/node_modules/fs-tree-diff/lib/util.d.ts" />
+        <option value="$PROJECT_DIR$/../../refactory/sz-server2/sz-webapp/node_modules/ember-intl/node_modules/fs-tree-diff/lib/entry.d.ts" />
       </list>
     </option>
   </component>
@@ -289,13 +379,6 @@
     <entry file="file://$PROJECT_DIR$/dist/assets/vendor.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -315,16 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -349,27 +422,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+    <entry file="file://$PROJECT_DIR$/.template-lintrc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="175">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
-            <element signature="e#103#155#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translations/en-us.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/ember-intl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="118" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
+            <element signature="e#371#390#0#Handlebars" expanded="true" />
+            <element signature="e#452#470#0#Handlebars" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#4;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#!!top" />
+            <element signature="e#2306#2326#0#Handlebars" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translations/fr-fr.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#103#155#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,14 @@
+price_banner: The {product} costs {price, number, USD}
+language-select:
+  language:
+    en-us: Anglais
+    fr-fr: Français
+label:
+  launch_date: Ne manquez pas le jour de lancement, demandez votre invitation maintenant
+  fill_infos: Veuillez renseigner vos informations ci-dessous
+link:
+  request_invit: Demander votre invitation
+form:
+  language:
+    label: Choisir votre langue
+

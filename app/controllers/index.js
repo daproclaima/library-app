@@ -2,8 +2,13 @@ import { computed, observer } from '@ember/object';
 // import { empty } from '@ember/object/computed';
 import { match, not } from '@ember/object/computed';
 import Controller from '@ember/controller';
+import {inject as service} from '@ember/service';
+
 
 export default Controller.extend({
+
+    headerMessage: 'Heey, welcome on my first ember test app!',
+
 
     emailAddress: '',
     firstName: '',
@@ -66,7 +71,7 @@ export default Controller.extend({
             alert(`Saving of the following email address is in progress: ${this.get('emailAddress')}`);
             this.set('responseMessage', `Thank you! We've just saved your email address: ${this.get('emailAddress')}`);
             this.set('emailAddress', '');
-        }
+        },
     }
 
 });
