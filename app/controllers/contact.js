@@ -55,6 +55,9 @@ export default Controller.extend({
             this.set('message', ``);
             this.set('emailAddress', ``);
             alert(`We got your message and we’ll get in touch soon`);
+            andThen(() => {
+
+            });
         },
     },
 

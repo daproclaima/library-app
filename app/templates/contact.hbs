@@ -8,10 +8,10 @@
   <br/>
   <p>{{t "label.fill_infos"}}</p>
 
-  <div class="form-horizontal form-group form-group-lg row">
+  <div class="row">
 
-    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-2 form-object-y">
-      {{input type="email" value=emailAddress class="form-control needs-validation"
+    <div class="form-horizontal form-group form-group-lg col-xs-12 col-sm-6 col-md-5 form-object-m-y">
+      {{input type="email" value=emailAddress class="form-control"
               placeholder="Please type your e-mail address."
               autofocus="autofocus" change=(action "emailAddressMatch")}}
       {{#unless isEmailEmpty}}
@@ -27,8 +27,8 @@
       {{/unless}}
     </div>
 
-    <div class="col-10 col-xs-offset-1 form-object-y">
-      {{textarea class="form-control" placeholder="Your message. (At least 5 characters.)" rows="7" value=message
+    <div class="form-horizontal form-group form-group-lg col-xs-12 col-sm-6 col-md-7 form-object-m-y">
+      {{textarea class="form-control col-8" placeholder="Your message. (At least 5 characters.)" rows="7" value=message
                  change=(action "longEnough")}}
       {{#unless isMessageEmpty}}
         {{#if isLongEnough}}
@@ -42,15 +42,13 @@
         {{/if}}
       {{/unless}}
     </div>
-
-
-    <div class="col-xs-10 col-xs-offset-0 col-sm-offset-0 col-sm-4 col-md-10 col-md-offset-0">
-      <button class="btn btn-primary btn-lg btn-block" disabled={{isDisabled}} {{action "sendMessage"}}>
-        {{t "link.send"}}
-      </button>
-    </div>
-
   </div>
+  <div class="form-group">
+    <button class="btn btn-primary btn-lg btn-block" disabled={{isDisabled}} {{action "sendMessage"}}>
+      {{t "link.send"}}
+    </button>
+  </div>
+
 
   {{#if responseMessage}}
     <div class="alert alert-success col-10 col-offset-1">{{responseMessage}}</div>
