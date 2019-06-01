@@ -26,6 +26,7 @@ export default Controller.extend({
 
     emailAddressChanged: observer('emailAddress', function () {
         console.log('observer is called', this.get('emailAddress'));
+        this.get('isLongEnough');
     }),
 
     actualMessage: computed('message', function () {
@@ -34,7 +35,7 @@ export default Controller.extend({
 
     messageChanged: observer('message', function () {
         console.log('observer is called', this.get('message'));
-        this.actions.emailAddressMatch();
+        this.get('emailAddressMatch');
     }),
 
 
@@ -42,19 +43,17 @@ export default Controller.extend({
     actions: {
 
         emailAddressMatch() {
-            Contact.get('isEmailAddressMatch')
+            this.get('isEmailAddressMatch')
         },
         longEnough() {
-            Contact.get('isLongEnough')
+            this.get('isLongEnough')
         },
 
         sendMessage() {
             alert(`Saving of the following message is in progress...`);
-            Contact.set('responseMessage', `Thank you! Here is the message. From ${Contact.get('emailAddress')}; Content: ${Contact.get('message')}`);
-            Contact.set('message', ``);
-            Contact.get('isLongEnough');
-            Contact.set('emailAddress', ``);
-            Contact.get('isEmailAddressMatch');
+            this.set('responseMessage', `Thank you! Here is the message. From ${this.get('emailAddress')}; Content: ${this.get('message')}`);
+            this.set('message', ``);
+            this.set('emailAddress', ``);
             alert(`We got your message and we’ll get in touch soon`);
         },
     },
