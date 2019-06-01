@@ -2,7 +2,6 @@ import Controller from '@ember/controller';
 import {computed, observer} from '@ember/object';
 import {match, not, gte, and, empty} from '@ember/object/computed';
 
-
 export default Controller.extend({
 
     emailAddress: '',
@@ -10,9 +9,11 @@ export default Controller.extend({
     responseMessage: '',
 
 
-    isValid:  and('isLongEnough', 'isEmailAddressMatch'),
+    isValid: and('isLongEnough', 'isEmailAddressMatch'),
     isDisabled: not('isValid'),
 
+    isEmailEmpty: empty('emailAddress'),
+    isMessageEmpty: empty('message'),
     isLongEnough: gte('message.length', 5),
 
     isEmailAddressMatch: match('emailAddress', /^.+@.+\..+$/),
@@ -25,8 +26,6 @@ export default Controller.extend({
 
     emailAddressChanged: observer('emailAddress', function () {
         console.log('observer is called', this.get('emailAddress'));
-        // console.log('mail matches ', this.get('emailAddressMatch'));
-        // console.log('isValid status ', this.get('isValid'));
     }),
 
     actualMessage: computed('message', function () {
@@ -36,25 +35,26 @@ export default Controller.extend({
     messageChanged: observer('message', function () {
         console.log('observer is called', this.get('message'));
         this.actions.emailAddressMatch();
-        // console.log('long enough ', this.get('isLongEnough'));
-        // console.log('isValid status ', this.get('isValid'));
     }),
+
 
 
     actions: {
 
-        emailAddressMatch(){
-            this.get('isEmailAddressMatch')
+        emailAddressMatch() {
+            Contact.get('isEmailAddressMatch')
         },
-        longEnough(){
-            this.get('isLongEnough')
+        longEnough() {
+            Contact.get('isLongEnough')
         },
 
         sendMessage() {
             alert(`Saving of the following message is in progress...`);
-            this.set('responseMessage', `Thank you! Here is the message. From ${this.get('emailAddress')}; Content: ${this.get('message')}`);
-            this.set('message', ``);
-            this.set('emailAddress', ``);
+            Contact.set('responseMessage', `Thank you! Here is the message. From ${Contact.get('emailAddress')}; Content: ${Contact.get('message')}`);
+            Contact.set('message', ``);
+            Contact.get('isLongEnough');
+            Contact.set('emailAddress', ``);
+            Contact.get('isEmailAddressMatch');
             alert(`We got your message and we’ll get in touch soon`);
         },
     },

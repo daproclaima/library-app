@@ -14,29 +14,33 @@
       {{input type="email" value=emailAddress class="form-control needs-validation"
               placeholder="Please type your e-mail address."
               autofocus="autofocus" change=(action "emailAddressMatch")}}
-      {{#if isEmailAddressMatch}}
-        <div class="text-success">
-          Looks good!
-        </div>
-      {{else}}
-        <div class="text-danger">
-          Something in the address format is wrong.
-        </div>
-      {{/if}}
+      {{#unless isEmailEmpty}}
+        {{#if isEmailAddressMatch}}
+          <div class="text-success">
+            Looks good!
+          </div>
+        {{else}}
+          <div class="text-danger">
+            Something in the address format is wrong.
+          </div>
+        {{/if}}
+      {{/unless}}
     </div>
 
     <div class="col-10 col-xs-offset-1 form-object-y">
       {{textarea class="form-control" placeholder="Your message. (At least 5 characters.)" rows="7" value=message
                  change=(action "longEnough")}}
-      {{#if isLongEnough}}
-        <div class="text-success">
-          Looks good!
-        </div>
-      {{else }}
-        <div class="text-danger">
-          The message is too short. We need at least 5 chars.
-        </div>
-      {{/if}}
+      {{#unless isMessageEmpty}}
+        {{#if isLongEnough}}
+          <div class="text-success">
+            Looks good!
+          </div>
+        {{else }}
+          <div class="text-danger">
+            The message is too short. We need at least 5 chars.
+          </div>
+        {{/if}}
+      {{/unless}}
     </div>
 
 

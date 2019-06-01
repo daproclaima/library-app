@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81706f83-eae7-4c8a-a6d3-a2eaaedace58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/contact.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,27 +26,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/contact.hbs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#8#26#0#Handlebars" expanded="true" />
-                <element signature="e#81#102#0#Handlebars" expanded="true" />
-                <element signature="e#128#152#0#Handlebars" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/contact.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/contact.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="786">
+              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#8#26#0#Handlebars" expanded="true" />
+                <element signature="e#81#102#0#Handlebars" expanded="true" />
+                <element signature="e#128#152#0#Handlebars" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,12 +159,12 @@
       <updated>1557756311547</updated>
       <workItem from="1557756314477" duration="1724000" />
       <workItem from="1559233031993" duration="13012000" />
-      <workItem from="1559286894627" duration="46682000" />
+      <workItem from="1559286894627" duration="50530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61418000" />
+    <option name="totallyTimeSpent" value="65266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/contact.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="786">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
           <folding>
             <element signature="e#8#26#0#Handlebars" expanded="true" />
             <element signature="e#81#102#0#Handlebars" expanded="true" />
@@ -527,11 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
