@@ -13,8 +13,9 @@ export default Controller.extend({
     isValid:  and('isLongEnough', 'isEmailAddressMatch'),
     isDisabled: not('isValid'),
 
-    isLongEnough:'',
-    isEmailAddressMatch:'',
+    isLongEnough: gte('message.length', 5),
+
+    isEmailAddressMatch: match('emailAddress', /^.+@.+\..+$/),
 
 
     actualEmailAddress: computed('emailAddress', function () {
@@ -39,39 +40,40 @@ export default Controller.extend({
         // console.log('isValid status ', this.get('isValid'));
     }),
 
-    actualEmailAddressMatch: computed('isEmailAddressMatch', function () {
-        console.log('actualEmailAddressMatch function is called: ', this.get('isEmailAddressMatch'));
-    }),
-
-    emailAddressMatchChanged: observer('isEmailAddressMatch', function () {
-        console.log('observer is called', this.get('isEmailAddressMatch'));
-        this.actions.emailAddressMatch();
-        // console.log('mail matches ', this.get('emailAddressMatch'));
-        // console.log('isValid status ', this.get('isValid'));
-    }),
-
-    actualIsLongEnough: computed('isLongEnough', function () {
-        console.log('actualIsLongEnough function is called: ', this.get('isLongEnough'));
-        actions.longEnough();
-
-    }),
-
-    isLongEnoughChanged: observer('isLongEnough', function () {
-        console.log('observer is called', this.get('isLongEnough'));
-
-        // console.log('mail matches ', this.get('emailAddressMatch'));
-        // console.log('isValid status ', this.get('isValid'));
-    }),
+    // actualEmailAddressMatch: computed('isEmailAddressMatch', function () {
+    //     this.get('isEmailAddressMatch');
+    //     console.log('actualEmailAddressMatch function is called: ', this.get('isEmailAddressMatch'));
+    // }),
+    //
+    // emailAddressMatchChanged: observer('isEmailAddressMatch', function () {
+    //     console.log('observer is called', this.get('isEmailAddressMatch'));
+    //     // console.log('mail matches ', this.get('emailAddressMatch'));
+    //     // console.log('isValid status ', this.get('isValid'));
+    // }),
+    //
+    // actualIsLongEnough: computed('isLongEnough', function () {
+    //     this.get('isLongEnough');
+    //     console.log('actualIsLongEnough function is called: ', this.get('isLongEnough'));
+    //
+    // }),
+    //
+    // isLongEnoughChanged: observer('isLongEnough', function () {
+    //     console.log('observer is called', this.get('isLongEnough'));
+    //
+    //     // console.log('mail matches ', this.get('emailAddressMatch'));
+    //     // console.log('isValid status ', this.get('isValid'));
+    // }),
 
 
     actions: {
 
         emailAddressMatch(){
-                this.set('isEmailAddressMatch', match('emailAddress', /^.+@.+\..+$/));
+            this.get('isEmailAddressMatch')
         },
         longEnough(){
-                this.set('isLongEnough', gte('message.length', 5));
+            this.get('isLongEnough')
         },
+
         sendMessage() {
             alert(`Saving of the following message is in progress...`);
             this.set('responseMessage', `Thank you! Here is the message. From ${this.get('emailAddress')}; Content: ${this.get('message')}`);
