@@ -40,30 +40,6 @@ export default Controller.extend({
         // console.log('isValid status ', this.get('isValid'));
     }),
 
-    // actualEmailAddressMatch: computed('isEmailAddressMatch', function () {
-    //     this.get('isEmailAddressMatch');
-    //     console.log('actualEmailAddressMatch function is called: ', this.get('isEmailAddressMatch'));
-    // }),
-    //
-    // emailAddressMatchChanged: observer('isEmailAddressMatch', function () {
-    //     console.log('observer is called', this.get('isEmailAddressMatch'));
-    //     // console.log('mail matches ', this.get('emailAddressMatch'));
-    //     // console.log('isValid status ', this.get('isValid'));
-    // }),
-    //
-    // actualIsLongEnough: computed('isLongEnough', function () {
-    //     this.get('isLongEnough');
-    //     console.log('actualIsLongEnough function is called: ', this.get('isLongEnough'));
-    //
-    // }),
-    //
-    // isLongEnoughChanged: observer('isLongEnough', function () {
-    //     console.log('observer is called', this.get('isLongEnough'));
-    //
-    //     // console.log('mail matches ', this.get('emailAddressMatch'));
-    //     // console.log('isValid status ', this.get('isValid'));
-    // }),
-
 
     actions: {
 
