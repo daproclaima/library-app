@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81706f83-eae7-4c8a-a6d3-a2eaaedace58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/contact.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="81706f83-eae7-4c8a-a6d3-a2eaaedace58" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,12 +158,12 @@
       <updated>1557756311547</updated>
       <workItem from="1557756314477" duration="1724000" />
       <workItem from="1559233031993" duration="13012000" />
-      <workItem from="1559286894627" duration="55940000" />
+      <workItem from="1559286894627" duration="57959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70676000" />
+    <option name="totallyTimeSpent" value="72695000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -184,7 +178,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49688148" visible="true" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49688148" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" sideWeight="0.5027933" side_tool="true" weight="0.25637585" />
       <window_info id="npm" order="2" sideWeight="0.5031185" side_tool="true" visible="true" weight="0.25637585" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -199,7 +193,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" x="0" y="23" width="1536" height="811" id="Terminal" order="11" type="WINDOWED" visible="true" weight="0.32867134" />
+      <window_info active="true" anchor="bottom" x="0" y="23" width="1536" height="811" id="Terminal" order="11" type="WINDOWED" visible="true" weight="0.32867134" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
