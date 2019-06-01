@@ -11,13 +11,34 @@
   <div class="form-horizontal form-group form-group-lg row">
 
     <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-2 form-object-y">
-      {{input type="email" value=emailAddress class="form-control not-valid" placeholder="Please type your e-mail address."
-              autofocus="autofocus"}}
+      {{input type="email" value=emailAddress class="form-control needs-validation"
+              placeholder="Please type your e-mail address."
+              autofocus="autofocus" change=(action "emailAddressMatch")}}
+      {{#if isEmailAddressMatch}}
+        <div class="text-success">
+          Looks good!
+        </div>
+      {{else}}
+        <div class="text-danger">
+          Something in the address format is wrong.
+        </div>
+      {{/if}}
     </div>
 
     <div class="col-10 col-xs-offset-1 form-object-y">
-      {{textarea class="form-control" placeholder="Your message. (At least 5 characters.)" rows="7" value=message}}
+      {{textarea class="form-control" placeholder="Your message. (At least 5 characters.)" rows="7" value=message
+                 change=(action "longEnough")}}
+      {{#if isLongEnough}}
+        <div class="text-success">
+          Looks good!
+        </div>
+      {{else }}
+        <div class="text-danger">
+          The message is too short. We need at least 5 chars.
+        </div>
+      {{/if}}
     </div>
+
 
     <div class="col-xs-10 col-xs-offset-0 col-sm-offset-0 col-sm-4 col-md-10 col-md-offset-0">
       <button class="btn btn-primary btn-lg btn-block" disabled={{isDisabled}} {{action "sendMessage"}}>
