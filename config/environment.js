@@ -8,12 +8,12 @@ module.exports = function(environment) {
     locationType: 'auto',
 
     firebase: {
-      apiKey: '',            /*gitignore*/
-      authDomain: '',              /*gitignore*/
-      databaseURL: '',      /*gitignore*/
-      projectId: '',                               /*gitignore*/
-      storageBucket: '',               /*gitignore*/
-      messagingSenderId: ''                              /*gitignore*/
+      apiKey: 'AIzaSyBAty82_oU3C3rsnrRyWb9BeFZI6l2kSqA',            /*gitignore*/
+      authDomain: 'library-app-52953.firebaseapp.com',              /*gitignore*/
+      databaseURL: 'https://library-app-52953.firebaseio.com',      /*gitignore*/
+      projectId: 'library-app-52953',                               /*gitignore*/
+      storageBucket: 'library-app-52953.appspot.com',               /*gitignore*/
+      messagingSenderId: '68913301942'                              /*gitignore*/
     },
 
     // if using ember-cli-content-security-policy
