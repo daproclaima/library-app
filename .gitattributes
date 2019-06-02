@@ -1,0 +1,3 @@
+./config/environment.js filter= gitignore
+$ git config --global filter.gitignore.clean "sed '//*gitignore*/$/'d"
+$ git config --global filter.gitignore.smudge cat
